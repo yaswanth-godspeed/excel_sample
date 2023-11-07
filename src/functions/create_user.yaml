@@ -1,0 +1,6 @@
+summary: Create User
+tasks:
+  - id: create
+    fn: datasource.excel.create
+    args:
+      data: <% inputs.body %>

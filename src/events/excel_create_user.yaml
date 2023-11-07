@@ -1,0 +1,14 @@
+http.post./create_user:
+  summary: Create a new User
+  description: Create User from database
+  fn: create_user
+  body:
+    content:
+      application/json:
+        schema:
+          type: object
+  responses:
+    content:
+      application/json:
+        schema:
+          type: object
